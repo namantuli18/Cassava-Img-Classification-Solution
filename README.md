@@ -24,6 +24,8 @@ Ernest Mwebaze, Jesse Mostipak, Joyce, Julia Elliott, Sohier Dane. (2020). Cassa
 ## Evaluation Metric  
 Submissions were evaluated based on their [categorization accuracy](https://developers.google.com/machine-learning/crash-course/classification/accuracy).
 
+<img src="https://github.com/namantuli18/Cassava-Img-Classification-Solution/blob/main/imgs/eval_metric.png" width="300" height="75" />
+
 ## Methodology
 
 ### Curating the dataset
@@ -40,7 +42,6 @@ Submissions were evaluated based on their [categorization accuracy](https://deve
    * [Cutmix](https://paperswithcode.com/method/cutmix#:~:text=CutMix%20is%20an%20image%20data,of%20pixels%20of%20combined%20images.)
    * [Snapmix](https://arxiv.org/abs/2012.04846)
    * [Fmix](https://paperswithcode.com/method/fmix)
-<img src="https://github.com/namantuli18/Feedback-Prize-Longformer-Ensemble/blob/main/imgs/dataset.png" width="600" height="300" />
 
 ### Model training 
 * For training the model on our set of images, we trained a variety of models in order to strenghten the overall ensemble. Since the training set consisted of a smaller set of images (15K), we trained the models over multiple folds.
@@ -66,7 +67,7 @@ The default parameters for our models are listed below:
   3. Resnext
   4. Resnest
 
-* Because of the self-attention mechanism, Vision Transformers provided a different aspect towards this problem, as compared to EfficientNet architectures. Consequently, when used together, both of these models provided great cross-validatioon accuracy. 
+* Because of the self-attention mechanism, Vision Transformers provided a different aspect towards this problem, as compared to EfficientNet architectures. Consequently, when used together, both of these models provided great cross-validation accuracy. 
 
 ### Model Evaluation and Inference
 
@@ -84,6 +85,9 @@ The performance of our individual models, along with their weightage in our fina
 Since the CV scores of EfficientNets and Vision Transformers were significantly higher, we wanted their predictions to be slightly oversampled than their Resnet based counterparts. Resnext and resnest, individually were not as robust, but provided great variability in the final blend.
 
 We logged in the final scores along with the corresponding approach and parameters, which helped us arrive at the proportion of the final blend. It has been shared below for reference:
+
+<img src="https://github.com/namantuli18/Cassava-Img-Classification-Solution/blob/main/imgs/cassava_scratch.png" width="800" height="200" />
+
 
 ## Key takeaways
 1. Training resnest and resnext architectures over a single fold helped us increase our score in the final stages of the competition.
