@@ -29,7 +29,7 @@ Ernest Mwebaze, Jesse Mostipak, Joyce, Julia Elliott, Sohier Dane. (2020). Cassa
 ## Evaluation Metric  
 Submissions were evaluated based on their [categorization accuracy](https://developers.google.com/machine-learning/crash-course/classification/accuracy).
 
-<img src="https://github.com/namantuli18/Cassava-Img-Classification-Solution/blob/main/imgs/eval_metric.png" width="300" height="75" />
+<img src="https://github.com/namantuli18/Cassava-Img-Classification-Solution/blob/main/imgs/eval_metric.png" width="300" height="60" />
 
 ## Methodology
 
