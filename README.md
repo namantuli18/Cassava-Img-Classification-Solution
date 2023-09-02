@@ -90,7 +90,8 @@ We logged in the final scores along with the corresponding approach and paramete
 2. Image augmentations were beneficial in over-sampling the underrepresented classes.
 3. Green filtering on the images did not effectively help to increase our scoores.
 4. Pertaining to the large number of competitors and a relatively simple problem statement, the Discussions thread seemed to be a gold mine for information and apporaches. However, we felt short of time while applying some techniques that had turned out to be effective for some challengers.
+5. We tried training models like RegNety and NFNet, but they were not able to significantly improve the scores of our existing models.
 
 ## Code 
-For training code, you can refer file `scripts/train-longformer.ipynb`  
-For inference script, please refer [Kaggle Notebook](https://www.kaggle.com/code/namantuli/clean-feedback-ensemble-balanced) or file `scripts/clean-feedback-ensemble-balanced.ipynb`
+For training code, you can refer file `scripts/train_eff5.ipynb`  
+For inference script, please refer [Kaggle Notebook](https://www.kaggle.com/code/namantuli/ensemble-inferencev2-1-889683/notebook) or file `scripts/clean-feedback-ensemble-balanced.ipynb`
