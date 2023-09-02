@@ -51,6 +51,7 @@ Submissions were evaluated based on their [categorization accuracy](https://deve
  Sample CutMix augmentations
  
 <img src="https://github.com/namantuli18/Cassava-Img-Classification-Solution/blob/main/imgs/cutmix-augs.png" width="750" height="350" />
+
 ### Model training 
 * For training the model on our set of images, we trained a variety of models in order to strenghten the overall ensemble. Since the training set consisted of a smaller set of images (15K), we trained the models over multiple folds.
 The default parameters for our models are listed below:
@@ -99,10 +100,11 @@ We logged in the final scores along with the corresponding approach and paramete
 
 ## Key takeaways
 1. Training resnest and resnext architectures over a single fold helped us increase our score in the final stages of the competition.
-2. Image augmentations were beneficial in over-sampling the underrepresented classes.
-3. Green filtering on the images did not effectively help to increase our scoores.
-4. Pertaining to the large number of competitors and a relatively simple problem statement, the Discussions thread seemed to be a gold mine for information and apporaches. However, we felt short of time while applying some techniques that had turned out to be effective for some challengers.
-5. We tried training models like RegNety and NFNet, but they were not able to significantly improve the scores of our existing models.
+2. 
+3. Image augmentations were beneficial in over-sampling the underrepresented classes.
+4. Green filtering on the images did not effectively help to increase our scoores.
+5. Pertaining to the large number of competitors and a relatively simple problem statement, the Discussions thread seemed to be a gold mine for information and apporaches. However, we felt short of time while applying some techniques that had turned out to be effective for some challengers.
+6. We tried training models like RegNety and NFNet, but they were not able to significantly improve the scores of our existing models.
 
 ## Code 
 For training code, you can refer file `scripts/train_eff5.ipynb`  
