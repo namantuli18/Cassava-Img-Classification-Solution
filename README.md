@@ -18,6 +18,11 @@ The training data comprises of ~23K training images belonging to one of the foll
 
 The train images were available as both raw images as well as tf-records. The test dataset consisted of around 15K unseen images for the participants to predict.
 
+Sample databunch: 
+
+<img src="https://github.com/namantuli18/Cassava-Img-Classification-Solution/blob/main/imgs/sample_ds.png" width="450" height="450" />
+
+
 ### Resources to the dataset:  
 Ernest Mwebaze, Jesse Mostipak, Joyce, Julia Elliott, Sohier Dane. (2020). Cassava Leaf Disease Classification. Kaggle. https://kaggle.com/competitions/cassava-leaf-disease-classification
 
@@ -42,7 +47,10 @@ Submissions were evaluated based on their [categorization accuracy](https://deve
    * [Cutmix](https://paperswithcode.com/method/cutmix#:~:text=CutMix%20is%20an%20image%20data,of%20pixels%20of%20combined%20images.)
    * [Snapmix](https://arxiv.org/abs/2012.04846)
    * [Fmix](https://paperswithcode.com/method/fmix)
-
+     
+ Sample CutMix augmentations
+ 
+<img src="https://github.com/namantuli18/Cassava-Img-Classification-Solution/blob/main/imgs/cutmix-augs.png" width="750" height="350" />
 ### Model training 
 * For training the model on our set of images, we trained a variety of models in order to strenghten the overall ensemble. Since the training set consisted of a smaller set of images (15K), we trained the models over multiple folds.
 The default parameters for our models are listed below:
